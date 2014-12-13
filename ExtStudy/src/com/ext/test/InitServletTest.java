@@ -17,6 +17,6 @@ public class InitServletTest extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().print("test web");
+        resp.getWriter().print("test web,you are first viter");
     }
 }
