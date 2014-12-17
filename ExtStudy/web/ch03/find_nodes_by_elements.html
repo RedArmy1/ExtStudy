@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>demo001</title>
+    <script type="text/javascript" src="../ext/ext-all-debug.js"></script>
+    <script type="text/javascript" src="demo001.js"></script>
+
+    <script type="text/javascript">
+        Ext.onReady(function(){
+            Ext.Function.defer(appFunction, 1000);
+        });
+    </script>
+</head>
+<body>
+    <div id="mybookList">
+        <ol id="numbersList">
+            <li>test1</li>
+            <li>test2</li>
+            <li>test3</li>
+        </ol>
+    </div>
+
+    <div id="booksiteList">
+        Here is my booklist
+        <ul>
+            <li id="node1">node1</li>
+            <li id="node2">node2</li>
+            <li id="node3">node3</li>
+        </ul>
+    </div>
+</body>
+</html>
